@@ -1,0 +1,28 @@
+Reference documentation:
+Pytest: https://docs.pytest.org/en/7.1.x/reference/exit-codes.html
+git basics: https://stackoverflow.com/questions/4470523/create-a-branch-in-git-from-another-branch
+uhubctl (This is to enumerate/deenumerate usb devices on hubs): https://github.com/mvp/uhubctl
+	To install on mac:
+		brew tap mvp/uhubctl https://github.com/mvp/uhubctl
+		brew install uhubctl
+NPM on mac: https://nodejs.org/en/download (Install the one for Mac)
+	sudo npm install -g npm@10.0.0
+Vysor automation project: https://github.com/koush/vysor.io/wiki/Vysor-Dongle
+	sudo npm -g install vysor
+Appium: https://appium.io/docs/en/2.1/quickstart/test-py/
+	sudo npm install -g appium
+	pip install Appium-Python-Client
+		https://digital.ai/catalyst-blog/what-is-appium-server-a-complete-end-to-end-guide/#:~:text=To%20open%20Appium%20from%20the,and%20the%20server%20port%20number.&text=Now%2C%20Appium%20is%20running%20and,and%20the%20server%20port%204723)
+
+sudo npm install appium-doctor -g
+uiautomator: https://youtu.be/raG9TJWKxR4?si=DD9xcgeMh1JEyvh1
+
+echo export "ANDROID_HOME=/Users/<user_name>/Library/Android/sdk" >> ~/.bash_profile
+brew install java (DOES NOT WORK)
+
+This does work for Java
+https://docs.oracle.com/en/java/javase/20/install/installation-jdk-macos.html#GUID-F575EB4A-70D3-4AB4-A20E-DBE95171AB5F
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk-11.0.15.jdk/Contents/Home
+export PATH=$PATH:$JAVA_HOME/bin
+
+use appium-doctor in the terminal to help identify missing configuration necessary for appium to work correctly
