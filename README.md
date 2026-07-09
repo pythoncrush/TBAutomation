@@ -1,5 +1,5 @@
 "# TBAUTOMATION" 
-Please run this on mac, windows sucks for software development.
+Please run this on mac, windows sucks for this kind of software development.
 Try to do everything from the command line terminal on mac.
 1. Install Warp window manager, amazing
 2. Install a text editor (VSCode, Sublime, Notepad++, Pycharm)
@@ -48,7 +48,7 @@ Environment setup
 4. Activate the virtual environment created in step 2.
 	source ~/venvs/automation_dev1/bin/activate
 5. Now clone the repo and work from there, anytime a change is necessary add me as code reviewer and I'll provide feedback.
-git clone git@github.com:Turtle-Beach-Corporation/TBAUTOMATION.git
+git clone https://github.com/pythoncrush/TBAutomation
 now install requirements
 pip install -r requirements.txt
 6. add adb to your bash path. Make sure you are running in bash shell echo $0, if it says ksh or something else type bash, you are now in bash
